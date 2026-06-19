@@ -1,7 +1,9 @@
-# Etapa 01
-- **[]** Visualização simples da tela.
-- **[]** Task Name, Status, Edit, Remove.
-- **[]** Banco de Dados.
+# Portfólio Responsivo - Etapa 01
+- **[]** Parte de cima (Home, Projetos, Biografia, Contato).
+- **[] Home**
+- **[] Projetos**
+- **[] Sobre mim**
+- **[] Contato**
 
 ## Tecnologias usadas
-Python, Flask e MySQL.
+Python - Flask, HTML e CSS
