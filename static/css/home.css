@@ -1,7 +1,16 @@
+.navbar-div {
+    background-color: #F9F0E3;
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
     background-color: #F9F0E3;
+    display: flex;
+    justify-content: center;
     height: 10vh;
-    border-bottom: solid;
+    width: 90%;
+    border-bottom: 5px solid;
     font-family: CaviarDreams;
     font-weight: 500;
 }
