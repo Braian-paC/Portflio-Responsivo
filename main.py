@@ -4,8 +4,11 @@ app = Flask(__name__) # Instância da classe Flask.
 
 
 @app.route("/") # Inicia o Flask na URL digitada entre os parênteses.
+def index():
+    return render_template("index.html") # Busca o arquivo, dentro da página 'templates'
+@app.route("/home")
 def home():
-    return render_template("home.html") # Busca o arquivo, dentro da página 'templates'
+    return render_template("home.html")
 
 @app.route("/projects")
 def projects():

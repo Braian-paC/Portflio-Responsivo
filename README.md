@@ -1,6 +1,6 @@
 # Portfólio Responsivo - Etapa 01
-- **[]** Parte de cima (Home, Projetos, Biografia, Contato).
-- **[] Home**
+- **[x]** Parte de cima (Home, Projetos, Biografia, Contato).
+- **[x] Home**
 - **[] Projetos**
 - **[] Sobre mim**
 - **[] Contato**
