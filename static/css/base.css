@@ -2,6 +2,16 @@ html, body {
     background-color: #F9F0E3;
 }
 
+#container_home_arrowdown h2, #container_home_arrowup h2 {
+    font-family: CaviarDreams;
+    font-size: 4rem;
+}
+
+#arrow_button_home_down, #arrow_button_home_up {
+    border: none;
+    flex-direction: row;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
     background-color: white;
