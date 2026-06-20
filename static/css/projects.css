@@ -1,19 +1,29 @@
-#container_project {
+#container_last_projects, #container_home_arrowup, #arrow_button_home_up, #container_projects, #button_project01, #button_project02 {
     background-color: #F9F0E3;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+    border: none;
 }
 
-#container_project h1 {
+#container_projects {
+    display: flex;
+    flex-direction: row;
+    height: 120vh;
+}
+
+#container_projects h1 {
+    font-family: CaviarDreams;
+    font-size: 10vh;
+}
+
+#container_last_projects {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+}
+
+#container_last_projects h1 {
     font-family: 'Neogen';
     font-size: 10vh;
     padding-top: 2vh;
-}
-
-#arrow_button_home_up {
-    background-color: #F9F0E3;
-    border: none;
 }
 
 #arrow_button_home_up img {
@@ -30,5 +40,11 @@
 #container_home_arrowup {
     display: flex;
     justify-content: center;
+}
 
+#button_project01, #button_project02 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border: none;
 }
