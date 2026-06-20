@@ -6,7 +6,7 @@
 #container_projects {
     display: flex;
     flex-direction: row;
-    height: 120vh;
+    height: 85vh;
 }
 
 #container_projects h1 {

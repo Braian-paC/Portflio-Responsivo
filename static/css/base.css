@@ -1,5 +1,5 @@
-html, body {
-    background-color: #F9F0E3;
+html, body, button {
+    background-color: #F9F0E3 !important;
 }
 
 #container_home_arrowdown h2, #container_home_arrowup h2 {
