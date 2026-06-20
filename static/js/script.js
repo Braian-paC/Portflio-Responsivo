@@ -1,7 +1,9 @@
-const button = document.getElementById("arrow_button_home")
-
-button.addEventListener("click", () => {
+document.getElementById("arrow_button_home").addEventListener("click", () => {
     scrollDown()
+})
+
+document.getElementById("nobl_button").addEventListener("click", () => {
+    window.open('https://nobl.io', '_blank');
 })
 
 function scrollDown() {

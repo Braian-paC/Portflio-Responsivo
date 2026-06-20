@@ -22,7 +22,7 @@ a {
     transition-delay: 0.1s;
 }
 
-a:hover {
+a:hover, #nobl_button:hover {
     color: gray;
     font-size: 35px;
 }

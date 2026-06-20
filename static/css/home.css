@@ -53,7 +53,15 @@
     flex-direction: column;
 }
 
-#container_home button {
+#nobl_button {
+    background-color: #F9F0E3;
+    border: none;
+    padding-bottom: 275px;
+    transition: font-size 0.2s;
+    transition-delay: 0.1s;
+}
+
+#arrow_button_home {
     background-color: #F9F0E3;
     border: none;
 }
@@ -63,12 +71,8 @@
     transition-delay: 0.1s
 }
 
-#container_home button:hover img {
+#arrow_button_home:hover img{
     transform: scale(1.4);
-}
-
-#container_home img:hover {
-    color: red;
 }
 
 #container_home_p {
@@ -78,5 +82,11 @@
     justify-content: center;
     font-size: 4vh;
     flex-direction: row;
-    height: 57vh;
+    height: 6vh;
+}
+
+#container_home_arrowdown {
+    display: flex;
+    justify-content: center;
+    padding-top: 40vh;
 }
