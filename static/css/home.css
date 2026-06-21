@@ -19,21 +19,23 @@
 
 .container_home {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     
     margin: auto;
     padding: 20vh 0 20vh 0;
-    max-width: 80%;
-    max-height: 90vh;
+    max-width: 58%;
+    max-height: 60vh;
 }
 
-#arrow_button_home_down {
+.container_arrow_button_home_down {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
 
-    margin-top: 16rem;
+    width: 50%;
+    margin-left: 40rem;
+    margin-top: 7rem;
 }
 
 #arrow_button_home_down img{
